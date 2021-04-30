@@ -1,0 +1,228 @@
+body {
+    font-family: 'Rambla', sans-serif;
+}
+
+button {
+    border-radius: 0px;
+}
+
+/*/////////// MAIN PAGE ////////////*/
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+}
+.navbar-font {
+    font-family: 'Rambla', sans-serif;
+}
+/* front page */
+.front-div {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.front-img {
+    max-width: 100%;
+}
+.front-name {
+    /* font-family: 'Rambla', sans-serif; */
+    font-family: 'Permanent Marker', cursive;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 5rem;   
+    font-weight: 700;
+}
+.front-p {
+    font-family: 'Rambla', sans-serif;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-btn {
+    margin: 50px 5px;
+    padding: 10px 20px;
+}
+
+.btn-outline:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* Subtitles */
+
+.subtitle {
+    margin-top: 10rem;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.subtitle-hr {
+    width: 5%;
+    margin: 1rem auto 5rem;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+/* About Me */
+.bold {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.textAboutMe {
+    margin-bottom: 30px;
+}
+
+.aboutMe-h3 {
+    font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 30px;
+}
+
+.aboutMe-p {
+    margin-bottom: 50px;
+}
+
+.aboutMePicture {
+    width: 100%;
+    padding: 10px;
+}
+
+/* My Skills */
+
+.card {
+    width: 100%;
+}
+
+.card-picture {
+    text-align:center;
+}
+
+.skill-card-text {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.skill-2nd-row {
+    margin-top:30px;
+}
+
+.experience-box {
+    position: relative;
+    text-align: center;
+    top: 0;
+    padding: 30px 20px;
+    border: 1px solid #eee;
+}
+
+.experience-box:hover {
+    box-shadow: 0px 30px 60px 0px rgba(63, 106, 180, 0.1);
+    top: -10px;
+}
+
+/* My Work */
+
+.my-work-img {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.work-btn {
+    width: 100%;
+}
+
+.work-box {
+    position: relative;
+    top: 0;
+    border: 1px solid #eee;
+}
+
+.work-box:hover {
+    box-shadow: 0px 30px 60px 0px rgba(10, 32, 70, 0.1);
+    top: -10px;
+}
+
+/* Contact Me */
+
+.contactme-card {
+    padding: 50px;
+    margin-bottom: 10rem;
+}
+
+.send-btn {
+    margin-top: 50px;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    border: 0.1px solid;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.send-btn:hover {
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+}
+
+/* Footer */
+
+
+.footer1 {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer1-h {
+    font-family: 'Permanent Marker', cursive;
+    margin: 2rem 0;
+}
+
+.footer-font-awesome {
+    display: inline;
+    text-align: center;
+    width: 100%;
+    color: grey;
+}
+
+.footer-font-awesome:hover {
+    color: black;
+}
+
+.icons {
+    margin-bottom: 2rem;
+}
+
+.icons:hover {
+    box-shadow: 0px 30px 60px 0px rgba(10, 32, 70, 0.1);
+    top: -10px;
+}
+
+.footer2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
