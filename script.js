@@ -69,7 +69,7 @@ function sendEmail() {
 	  Password: "Ckdckdrn123!",
 	  To: 'ckdckdrn112@gmail.com',
 	  From: userEmail,
-	  Subject: "[Important] User Request from Lim's Portpolio",
+	  Subject: "[Important] User Request from Lim's Portfolio",
 	  Body: userMessage,
 	})
 	  .then(function (message) {
